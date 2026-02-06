@@ -1,6 +1,7 @@
 <?php
 
 return [
+
   'debug' => true,
   'api' => [
     'basicAuth' => false,        // ❌ désactive l'auth
@@ -12,4 +13,12 @@ return [
 //      return true;  // Autorise TOUT en mode dev
 //    }
   ],
+  'routes' => [
+    [
+      'pattern' => '/',
+      'action'  => function () {
+        go('/panel');
+      }
+    ],
+  ]
 ];
