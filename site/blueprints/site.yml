@@ -1,5 +1,73 @@
 title: Site
 
-sections:
-  pages:
-    type: pages
+
+
+columns:
+  - width: 1/2
+    sections:
+      pages:
+        type: pages
+        templates:
+          - projects
+        headline: " "
+        layout: cards
+        size: large
+        status: listed
+
+  - width: 1/2
+    sections:
+      about:
+        type: pages
+        templates:
+          - about
+        headline: " "
+        layout: cards
+        size: large
+#        status: listed
+
+
+  - width: 1/8
+    sections:
+      tags:
+        type: pages
+        headline: " "
+        template:
+          - tags
+        layout: cards
+        size: tiny
+        status: listed
+
+  - width: 1/8
+    sections:
+      services:
+        type: pages
+        headline: " "
+        template:
+          - services
+        layout: cards
+        size: tiny
+        status: listed
+
+
+  - width: 1/8
+    sections:
+      sectors:
+        type: pages
+        headline: " "
+        template:
+          - sectors
+        layout: cards
+        size: tiny
+        status: listed
+
+  - width: 1/8
+    sections:
+      clients:
+        type: pages
+        headline: " "
+        template:
+          - clients
+        layout: cards
+        size: tiny
+        status: listed
+
