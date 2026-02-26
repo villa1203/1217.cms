@@ -16,10 +16,10 @@ columns:
   main:
     width: 1/1
     sections:
-      tags:
+      sectors:
         type: pages
-        headline: Tags
-        template: tag
+        headline: Secteurs
+        template: sector
         layout: list
         status: all
         sortable: true

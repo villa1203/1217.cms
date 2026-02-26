@@ -16,10 +16,10 @@ columns:
   main:
     width: 1/1
     sections:
-      tags:
+      clients:
         type: pages
-        headline: Tags
-        template: tag
+        headline: Clients
+        template: client
         layout: list
         status: all
         sortable: true

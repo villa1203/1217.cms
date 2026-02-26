@@ -16,10 +16,10 @@ columns:
   main:
     width: 1/1
     sections:
-      tags:
+      services:
         type: pages
-        headline: Tags
-        template: tag
+        headline: Services
+        template: service
         layout: list
         status: all
         sortable: true

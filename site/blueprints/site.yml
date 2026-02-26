@@ -25,14 +25,13 @@ columns:
         size: large
 #        status: listed
 
-
   - width: 1/8
     sections:
-      tags:
+      sectors:
         type: pages
         headline: " "
         template:
-          - tags
+          - sectors
         layout: cards
         size: tiny
         status: listed
@@ -44,18 +43,6 @@ columns:
         headline: " "
         template:
           - services
-        layout: cards
-        size: tiny
-        status: listed
-
-
-  - width: 1/8
-    sections:
-      sectors:
-        type: pages
-        headline: " "
-        template:
-          - sectors
         layout: cards
         size: tiny
         status: listed

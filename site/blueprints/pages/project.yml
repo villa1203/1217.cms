@@ -63,41 +63,38 @@ columns:
           - bulletList
           - orderedList
         headings:
-          - 2
           - 3
 
   aside:
     width: 1/4
     fields:
 
-      tags:
-        label: Tags
+      sectors:
+        label: Secteur (type de projet)
         type: pages
-        query: site.find('tags').children
+        query: site.find('sectors').children
         multiple: true
         layout: list
+        required: true
 
       clients:
-        label: Type de projet
+        label: Client·e·xs
         type: pages
         query: site.find('clients').children
         multiple: true
         layout: list
 
-      sectors:
-        label: Type de projet
-        type: pages
-        query: site.find('sectors').children
-        multiple: true
-        layout: list
+      date:
+        label: Période
+        type: date
+        required: true
 
       services:
-        label: Type de projet
+        label: Service·s
         type: pages
         query: site.find('services').children
         multiple: true
         layout: list
-
 
       localisation:
         label: Lieu
@@ -106,10 +103,6 @@ columns:
         marks:
           - italic
           - link
-      date:
-        label: Année
-        type: date
-        required: true
 
       photo_credits:
         label: Photos

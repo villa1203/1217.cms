@@ -1,0 +1,22 @@
+name: Texte
+wysiwyg: true
+preview: fields
+fields:
+  titre:
+    label: Titre
+    type: text
+  text:
+    label: Texte
+    type: writer
+    nodes:
+      - heading
+      - paragraph
+      - bulletList
+      - orderedList
+    marks:
+      - bold
+      - italic
+      - link
+    headings:
+      - h3
+      - h4
