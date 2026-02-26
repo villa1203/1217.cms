@@ -1,0 +1,17 @@
+title: About
+
+icon: 👤
+
+columns:
+  main:
+    width: 1/1
+    fields:
+      content:
+        label: Contenu
+        type: blocks
+        fieldsets:
+          - article_heading
+          - image
+          - profiles
+          - text
+          - video
