@@ -1,0 +1,7 @@
+label: Liste de clients
+preview: fields
+wysiwyg: true
+fields:
+  title:
+    label: Titre
+    type: text

@@ -11,8 +11,9 @@ columns:
         type: blocks
         fieldsets:
           - article_heading
+          - clients_list
           - image
+          - pages_list
           - profiles
           - text
           - video
-          - pages_list
