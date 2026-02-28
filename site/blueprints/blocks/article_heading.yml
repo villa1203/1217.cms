@@ -2,7 +2,7 @@ name: En-tete d'article
 wysiwyg: true
 preview: fields
 fields:
-  titre:
+  title:
     label: Titre
     type: text
   text:

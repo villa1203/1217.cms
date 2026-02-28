@@ -2,13 +2,20 @@ label: Vidéo
 preview: fields
 wysiwyg: true
 fields:
-  titre:
+  title:
     label: Titre
     type: text
   url:
     label: field.blocks.video.url.label
     type: url
     placeholder: field.blocks.video.url.placeholder
+
+  video_file:
+    label: Fichier vidéo
+    type: files
+    max: 1
+    accept:
+      extension: mp4, webm, ogg, mov
   caption:
     label: Légende
     type: writer
