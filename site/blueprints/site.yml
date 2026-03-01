@@ -48,6 +48,18 @@ columns:
 
   - width: 1/8
     sections:
+      collaborators:
+        type: pages
+        headline: " "
+        template:
+          - collaborators
+        layout: cards
+        size: tiny
+#        status: listed
+
+
+  - width: 1/8
+    sections:
       clients:
         type: pages
         headline: " "
