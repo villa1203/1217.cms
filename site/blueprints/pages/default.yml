@@ -12,6 +12,7 @@ columns:
         fieldsets:
           - article_heading
           - clients_list
+          - collaborators_list
           - image
           - pages_list
           - profiles

@@ -1,0 +1,7 @@
+label: Liste de collaborateur·ice·xs
+preview: fields
+wysiwyg: true
+fields:
+  title:
+    label: Titre
+    type: text
