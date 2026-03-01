@@ -13,22 +13,12 @@ columns:
         layout: cards
         size: large
         status: listed
-  - width: 1/3
-    sections:
-      about:
-        type: pages
-        templates:
-          - about
-        headline: " "
-        layout: cards
-        size: large
-        status: listed
-  - width: 1/3
+  - width: 2/3
     sections:
       home:
         type: pages
         templates:
-          - home
+          - default
         headline: " "
         layout: cards
         size: large
