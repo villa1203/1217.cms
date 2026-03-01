@@ -13,7 +13,7 @@ options:
 columns:
   main:
     width: 1/1
-    sections:
+    fields:
       logo:
         type: files
         multiple: false
