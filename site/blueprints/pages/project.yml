@@ -120,7 +120,7 @@ columns:
         type: files
         multiple: true
         query: page.images.template('image')
-        label: Galerie
-        help: Images qui s'afficherons dans la galerie du projet
+        label: Galerie preview
+        help: Images qui s'afficherons pour l'aperçu du projet
         uploads:
           template: image
