@@ -2,7 +2,7 @@ name: Profiles
 wysiwyg: true
 preview: fields
 fields:
-  list:
+  profiles_list:
     type: structure
     fields:
       photo:
