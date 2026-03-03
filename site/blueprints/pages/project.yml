@@ -33,8 +33,8 @@ columns:
         type: files
         multiple: true
         query: page.images.template('image')
-        label: Image(s) de couverture
-        help: Images qui s'afficherons sur la page d'accueil
+        label: Image de couverture
+        help: Image qui s'afficherons en apercu dans la liste de projet
         uploads:
           template: image
       miniature:
@@ -43,11 +43,21 @@ columns:
         type: files
         multiple: false
         query: page.images.template('image')
-        label: Image(s) de miniature
-        help: Images qui s'afficherons au hover
+        label: Image de miniature
+        help: Image qui s'afficherons au hover
         uploads:
           template: image
 
+      covers_video:
+        width: 1/2
+        required: false
+        type: files
+        multiple: true
+        query: page.images.template('image')
+        label: Video de couverture
+        help: Video qui s'afficherons en apercu dans la liste de projet (si il ya une video, l'image de couverture ne s'affiche pas)
+        uploads:
+          template: video
 
   main:
     width: 3/4
