@@ -2,6 +2,13 @@ title: Projects
 
 icon: 🏠
 
+options:
+  changeSlug: false
+  changeStatus: false
+  changeTemplate: false
+  delete: false
+  duplicate: false
+
 sections:
   projects:
     headline: Projets
