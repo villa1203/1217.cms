@@ -17,6 +17,22 @@ fields:
       back: black
     size: huge
     width: 1/2
+
+  toggle_gap_left:
+    label: Espace sur la gauche?
+    type: toggle
+    text:
+      - "non, pas d'éspace"
+      - "oui, un espace à gauche"
+
+  toggle_is_full:
+    label: Include in menu?
+    type: toggle
+    text:
+      - "no"
+      - "yes"
+
+
   caption:
     label: Légende
     type: writer
