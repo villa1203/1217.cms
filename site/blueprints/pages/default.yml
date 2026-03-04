@@ -19,5 +19,6 @@ columns:
           - pages_list
           - profiles
           - sketch_text
+          - space
           - text
           - video
