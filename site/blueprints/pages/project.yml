@@ -104,6 +104,14 @@ columns:
         layout: list
         required: true
 
+      collaborators:
+        label: Collaborateur·ice·xs
+        type: pages
+        query: site.find('collaborators').children
+        multiple: true
+        layout: list
+
+
       clients:
         label: Client·e·xs
         type: pages
