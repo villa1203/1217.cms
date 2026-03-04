@@ -25,6 +25,15 @@ fields:
       - "non, pas d'éspace"
       - "oui, un espace à gauche"
 
+  toggle_is_large:
+    label: Large
+    help: prend 2 clones, mais avec des marge à gauche et à droite
+    type: toggle
+    text:
+      - "non"
+      - "oui"
+
+
   toggle_is_full:
     label: Include in menu?
     type: toggle
