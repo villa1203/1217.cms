@@ -18,5 +18,6 @@ columns:
           - image
           - pages_list
           - profiles
+          - sketch_text
           - text
           - video
