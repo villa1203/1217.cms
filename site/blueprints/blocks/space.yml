@@ -1,0 +1,7 @@
+label: Espace
+preview: fields
+wysiwyg: true
+fields:
+  infos:
+    label: Espace vide
+    type: info
