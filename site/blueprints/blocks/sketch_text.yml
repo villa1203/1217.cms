@@ -1,0 +1,7 @@
+label: P5 text
+preview: fields
+wysiwyg: true
+fields:
+  title:
+    label: Titre
+    type: text
