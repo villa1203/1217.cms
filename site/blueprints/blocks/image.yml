@@ -35,11 +35,11 @@ fields:
 
 
   toggle_is_full:
-    label: Include in menu?
+    label: Pleine page
     type: toggle
     text:
-      - "no"
-      - "yes"
+      - "non"
+      - "oui"
 
 
   caption:
