@@ -18,6 +18,14 @@ fields:
     size: huge
     width: 1/2
 
+  toggle_ratio_1_1:
+    width: 1/2
+    label: Ratio 1/1
+    type: toggle
+    text:
+      - "non, ratio d'origine"
+      - "oui, image croppée et carrée"
+
   toggle_gap_left:
     label: Espace sur la gauche?
     type: toggle

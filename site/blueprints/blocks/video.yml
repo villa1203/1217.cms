@@ -18,7 +18,17 @@ fields:
     accept:
       extension: mp4, webm, ogg, mov
 
+  toggle_ratio_1_1:
+    width: 1/2
+    label: Ratio 1/1
+    type: toggle
+    text:
+      - "non, ratio d'origine"
+      - "oui, image croppée et carrée"
+
+
   toggle_gap_left:
+    width: 1/2
     label: Espace sur la gauche?
     type: toggle
     text:
@@ -26,6 +36,7 @@ fields:
       - "oui, un espace à gauche"
 
   toggle_is_large:
+    width: 1/2
     label: Large
     help: prend 2 clones, mais avec des marge à gauche et à droite
     type: toggle
@@ -35,6 +46,7 @@ fields:
 
 
   toggle_is_full:
+    width: 1/2
     label: Pleine page
     type: toggle
     text:
