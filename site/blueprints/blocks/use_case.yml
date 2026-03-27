@@ -2,19 +2,6 @@ name: Use Case
 wysiwyg: true
 preview: fields
 fields:
-  help:
-
-  title:
-    label: Titre
+  info:
     type: text
-  texts:
-    label: Texte
-    type: writer
-    nodes:
-      - paragraph
-      - bulletList
-      - orderedList
-    marks:
-      - bold
-      - italic
-      - link
+    text: block pour afficher les projets avec la section "use case"
