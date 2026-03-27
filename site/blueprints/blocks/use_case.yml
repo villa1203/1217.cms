@@ -3,5 +3,5 @@ wysiwyg: true
 preview: fields
 fields:
   info:
-    type: text
+    type: info
     text: block pour afficher les projets avec la section "use case"
