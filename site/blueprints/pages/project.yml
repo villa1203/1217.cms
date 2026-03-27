@@ -59,6 +59,11 @@ columns:
         uploads:
           template: video
 
+      link_to_project:
+        label: lien vers le projet
+        width: 1/2
+        type: url
+
   main:
     width: 3/4
     fields:
