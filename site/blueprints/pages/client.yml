@@ -22,3 +22,11 @@ columns:
           template: blocks/image
         query: model.images
         max: 1
+      logo_negative:
+        type: files
+        multiple: false
+        label: Logo du client
+        uploads:
+          template: blocks/image
+        query: model.images
+        max: 1
