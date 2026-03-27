@@ -21,4 +21,5 @@ columns:
           - sketch_text
           - space
           - text
+          - use_case
           - video
