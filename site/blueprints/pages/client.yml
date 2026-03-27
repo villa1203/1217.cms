@@ -25,7 +25,7 @@ columns:
       logo_negative:
         type: files
         multiple: false
-        label: Logo du client
+        label: Logo du client négatif
         uploads:
           template: blocks/image
         query: model.images
