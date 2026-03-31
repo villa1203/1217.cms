@@ -1,0 +1,24 @@
+title: Informations Site
+icon: tag
+num: 0
+
+create:
+  status: listed
+
+options:
+  changeStatus: false
+  changeTemplate: false
+  preview: false
+
+
+columns:
+  main:
+    width: 1/1
+    fields:
+      menu_description:
+        label: Déscription menu
+        type: writer
+        marks:
+          - italic
+        nodes:
+          - paragraph

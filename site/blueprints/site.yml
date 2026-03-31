@@ -69,3 +69,13 @@ columns:
         size: tiny
         status: listed
 
+  - width: 1/3
+    sections:
+       site_infos:
+         type: pages
+         headline: " "
+         template:
+           - site-info
+         layout: cards
+         size: tiny
+         status: listed
