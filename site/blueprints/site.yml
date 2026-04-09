@@ -22,7 +22,7 @@ columns:
         headline: " "
         layout: cards
         size: large
-#        status: listed
+        status: listed
 
   - width: 1/8
     sections:
@@ -55,7 +55,7 @@ columns:
           - collaborators
         layout: cards
         size: tiny
-#        status: listed
+        status: listed
 
 
   - width: 1/8

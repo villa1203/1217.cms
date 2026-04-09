@@ -2,8 +2,8 @@ title: Informations Site
 icon: tag
 num: 0
 
-create:
-  status: listed
+#create:
+#  status: listed
 
 options:
   changeStatus: false

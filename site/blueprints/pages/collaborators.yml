@@ -2,8 +2,8 @@ title: Collaborateur·ice·xs
 icon: users
 num: 0
 
-create:
-  status: listed
+#create:
+#  status: listed
 
 options:
   changeSlug: false
