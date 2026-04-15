@@ -14,14 +14,14 @@ fields:
       - bold
       - italic
       - link
-  profiles_list:
+  prestation_list:
     type: structure
     fields:
-      profiles_list_title:
+      prestation_list_title:
         label: Titre
         type: text
 
-      profiles_list_description:
+      prestation_list_description:
         label: Description
         type: writer
         inline: true
@@ -29,7 +29,7 @@ fields:
           - bold
           - italic
           - link
-      profiles_list_projects_linked:
+      prestation_list_projects_linked:
         label: Projet·s associés
         type: pages
         query: site.index.filterBy('intendedTemplate', 'project')
