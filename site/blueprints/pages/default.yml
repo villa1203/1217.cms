@@ -17,6 +17,7 @@ columns:
           - gallery
           - image
           - pages_list
+          - prestations
           - profiles
           - sketch_text
           - space
