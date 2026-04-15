@@ -1,7 +1,13 @@
-label: Liste de clients
+title: Liste de clients
 preview: fields
 wysiwyg: true
 fields:
   title:
     label: Titre
     type: text
+  client_list:
+    label: Client·exs à afficher
+    type: pages
+    query: site.index.filterBy('intendedTemplate', 'client')
+    multiple: true
+    layout: list
