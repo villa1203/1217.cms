@@ -1,0 +1,37 @@
+name: Prestations
+wysiwyg: true
+preview: fields
+
+fields:
+  title:
+    label: Titre
+    type: text
+  text:
+    label: Baseline
+    type: writer
+    inline: true
+    marks:
+      - bold
+      - italic
+      - link
+  profiles_list:
+    type: structure
+    fields:
+      profiles_list_title:
+        label: Titre
+        type: text
+
+      profiles_list_description:
+        label: Description
+        type: writer
+        inline: true
+        marks:
+          - bold
+          - italic
+          - link
+      profiles_list_projects_linked:
+        label: Projet·s associés
+        type: pages
+        query: site.index.filterBy('intendedTemplate', 'project')
+        multiple: true
+        layout: list
