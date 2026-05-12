@@ -12,9 +12,20 @@ fields:
     placeholder: field.blocks.video.url.placeholder
 
   video_file:
-    label: Fichier vidéo
+    label: Fichier vidéo (par default)
     type: files
+    width: 1/2
     max: 1
+    accept:
+      extension: mp4, webm, ogg, mov
+
+  video_file_mobil:
+    label: Fichier vidéo (mobil)
+    help: Si pas de fichier video en mobil, le fichier video par default est utilisé
+    type: files
+    width: 1/2
+    max: 1
+    query: page.videos
     accept:
       extension: mp4, webm, ogg, mov
 
