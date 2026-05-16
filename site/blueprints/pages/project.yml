@@ -16,7 +16,7 @@ columns:
     width: 1/1
     fields:
       baseline:
-        width: 2/3
+        width: 1/3
         label: Baseline
         type: text
       preview_full_size:
@@ -26,6 +26,14 @@ columns:
         text:
           - non (regular size)
           - oui (full size preview)
+        default: false
+      tag_dark_bg:
+        label: Tag sur fond sombre
+        width: 1/3
+        type: toggle
+        text:
+          - non (fond clair)
+          - oui (fond sombre)
         default: false
       covers:
         width: 1/2

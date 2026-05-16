@@ -22,3 +22,32 @@ columns:
           - italic
         nodes:
           - paragraph
+
+      footer_heading:
+        label: Titre footer
+        type: writer
+        inline: true
+        marks:
+          - italic
+
+      footer_email:
+        label: Email contact (footer)
+        type: email
+
+      footer_columns:
+        label: Colonnes footer
+        help: Colonnes supplémentaires sur la même ligne que le contact (ex. adresse, téléphone…)
+        type: structure
+        fields:
+          label:
+            label: Titre
+            type: text
+            width: 1/3
+          content:
+            label: Contenu
+            type: writer
+            width: 2/3
+            inline: true
+            marks:
+              - italic
+              - link
