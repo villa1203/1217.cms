@@ -35,3 +35,17 @@ fields:
         query: site.index.filterBy('intendedTemplate', 'project')
         multiple: true
         layout: list
+      prestation_list_includes_title:
+        label: Titre liste 1
+        type: text
+        placeholder: Typical project includes
+      prestation_list_includes:
+        label: Liste 1 (un item par ligne)
+        type: textarea
+      prestation_list_details_title:
+        label: Titre liste 2
+        type: text
+        placeholder: More Details
+      prestation_list_details:
+        label: Liste 2 (un item par ligne)
+        type: textarea
