@@ -57,6 +57,17 @@ columns:
         size: tiny
         status: listed
 
+  - width: 1/8
+    sections:
+      research_engagements:
+        type: pages
+        headline: " "
+        template:
+          - research-engagements
+        layout: cards
+        size: tiny
+        status: listed
+
 
   - width: 1/8
     sections:
