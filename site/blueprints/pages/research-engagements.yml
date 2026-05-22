@@ -1,0 +1,22 @@
+title: Research & Engagement
+icon: book
+num: 0
+
+options:
+  changeSlug: false
+  changeStatus: false
+  changeTemplate: false
+  delete: false
+  duplicate: false
+
+columns:
+  main:
+    width: 1/1
+    sections:
+      engagements:
+        type: pages
+        headline: Research & Engagement
+        template: research-engagement
+        layout: list
+        status: all
+        sortable: true

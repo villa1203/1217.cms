@@ -1,0 +1,34 @@
+title: Research Engagement
+icon: book
+num: 0
+
+create:
+  status: listed
+
+options:
+  changeStatus: false
+  changeTemplate: false
+  preview: false
+
+columns:
+  main:
+    width: 1/1
+    sections:
+      content:
+        type: fields
+        fields:
+          institution:
+            label: Institution / Event
+            type: text
+          project:
+            label: Research Project
+            type: text
+          contribution:
+            label: Contribution
+            type: text
+          location:
+            label: Location
+            type: text
+          year:
+            label: Year
+            type: text
