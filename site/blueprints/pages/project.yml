@@ -72,6 +72,14 @@ columns:
         width: 1/2
         type: url
 
+      coming_soon:
+        label: Projet en cours de réalisation
+        width: 1/2
+        type: toggle
+        text:
+          - Non
+          - Oui (en cours de réalisation)
+
   main:
     width: 3/4
     fields:
