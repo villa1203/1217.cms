@@ -23,13 +23,6 @@ columns:
         nodes:
           - paragraph
 
-      footer_heading:
-        label: Titre footer
-        type: writer
-        inline: true
-        marks:
-          - italic
-
       footer_email:
         label: Email contact (footer)
         type: email
